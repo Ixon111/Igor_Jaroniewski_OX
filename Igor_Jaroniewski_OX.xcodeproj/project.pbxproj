@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760161582BA39EED00566831 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760161572BA39EED00566831 /* main.cpp */; };
+		760161602BA39F0300566831 /* Plansza.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7601615E2BA39F0300566831 /* Plansza.cpp */; };
+		762080552BAC4FEC001C7C2B /* Gracz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 762080532BAC4FEC001C7C2B /* Gracz.cpp */; };
+		762080582BAC5570001C7C2B /* Czlowiek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 762080562BAC5570001C7C2B /* Czlowiek.cpp */; };
+		7620805B2BAC5EE4001C7C2B /* Komp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 762080592BAC5EE4001C7C2B /* Komp.cpp */; };
+		7620805E2BB58AF3001C7C2B /* Sedzia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7620805C2BB58AF2001C7C2B /* Sedzia.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		760161522BA39EED00566831 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		760161542BA39EED00566831 /* Igor_Jaroniewski_OX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Igor_Jaroniewski_OX; sourceTree = BUILT_PRODUCTS_DIR; };
+		760161572BA39EED00566831 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7601615E2BA39F0300566831 /* Plansza.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Plansza.cpp; sourceTree = "<group>"; };
+		7601615F2BA39F0300566831 /* Plansza.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Plansza.hpp; sourceTree = "<group>"; };
+		762080532BAC4FEC001C7C2B /* Gracz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gracz.cpp; sourceTree = "<group>"; };
+		762080542BAC4FEC001C7C2B /* Gracz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gracz.hpp; sourceTree = "<group>"; };
+		762080562BAC5570001C7C2B /* Czlowiek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Czlowiek.cpp; sourceTree = "<group>"; };
+		762080572BAC5570001C7C2B /* Czlowiek.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Czlowiek.hpp; sourceTree = "<group>"; };
+		762080592BAC5EE4001C7C2B /* Komp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Komp.cpp; sourceTree = "<group>"; };
+		7620805A2BAC5EE4001C7C2B /* Komp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Komp.hpp; sourceTree = "<group>"; };
+		7620805C2BB58AF2001C7C2B /* Sedzia.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sedzia.cpp; sourceTree = "<group>"; };
+		7620805D2BB58AF2001C7C2B /* Sedzia.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sedzia.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		760161512BA39EED00566831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7601614B2BA39EED00566831 = {
+			isa = PBXGroup;
+			children = (
+				760161562BA39EED00566831 /* Igor_Jaroniewski_OX */,
+				760161552BA39EED00566831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		760161552BA39EED00566831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				760161542BA39EED00566831 /* Igor_Jaroniewski_OX */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760161562BA39EED00566831 /* Igor_Jaroniewski_OX */ = {
+			isa = PBXGroup;
+			children = (
+				760161572BA39EED00566831 /* main.cpp */,
+				7601615E2BA39F0300566831 /* Plansza.cpp */,
+				7601615F2BA39F0300566831 /* Plansza.hpp */,
+				762080532BAC4FEC001C7C2B /* Gracz.cpp */,
+				762080542BAC4FEC001C7C2B /* Gracz.hpp */,
+				762080562BAC5570001C7C2B /* Czlowiek.cpp */,
+				762080572BAC5570001C7C2B /* Czlowiek.hpp */,
+				762080592BAC5EE4001C7C2B /* Komp.cpp */,
+				7620805A2BAC5EE4001C7C2B /* Komp.hpp */,
+				7620805C2BB58AF2001C7C2B /* Sedzia.cpp */,
+				7620805D2BB58AF2001C7C2B /* Sedzia.hpp */,
+			);
+			path = Igor_Jaroniewski_OX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		760161532BA39EED00566831 /* Igor_Jaroniewski_OX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7601615B2BA39EED00566831 /* Build configuration list for PBXNativeTarget "Igor_Jaroniewski_OX" */;
+			buildPhases = (
+				760161502BA39EED00566831 /* Sources */,
+				760161512BA39EED00566831 /* Frameworks */,
+				760161522BA39EED00566831 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Igor_Jaroniewski_OX;
+			productName = Igor_Jaroniewski_OX;
+			productReference = 760161542BA39EED00566831 /* Igor_Jaroniewski_OX */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7601614C2BA39EED00566831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					760161532BA39EED00566831 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 7601614F2BA39EED00566831 /* Build configuration list for PBXProject "Igor_Jaroniewski_OX" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7601614B2BA39EED00566831;
+			productRefGroup = 760161552BA39EED00566831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				760161532BA39EED00566831 /* Igor_Jaroniewski_OX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		760161502BA39EED00566831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760161582BA39EED00566831 /* main.cpp in Sources */,
+				762080582BAC5570001C7C2B /* Czlowiek.cpp in Sources */,
+				762080552BAC4FEC001C7C2B /* Gracz.cpp in Sources */,
+				760161602BA39F0300566831 /* Plansza.cpp in Sources */,
+				7620805B2BAC5EE4001C7C2B /* Komp.cpp in Sources */,
+				7620805E2BB58AF3001C7C2B /* Sedzia.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		760161592BA39EED00566831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7601615A2BA39EED00566831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7601615C2BA39EED00566831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7601615D2BA39EED00566831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7601614F2BA39EED00566831 /* Build configuration list for PBXProject "Igor_Jaroniewski_OX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760161592BA39EED00566831 /* Debug */,
+				7601615A2BA39EED00566831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7601615B2BA39EED00566831 /* Build configuration list for PBXNativeTarget "Igor_Jaroniewski_OX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7601615C2BA39EED00566831 /* Debug */,
+				7601615D2BA39EED00566831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7601614C2BA39EED00566831 /* Project object */;
+}
