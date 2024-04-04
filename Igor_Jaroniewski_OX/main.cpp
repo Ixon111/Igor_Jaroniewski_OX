@@ -17,6 +17,8 @@ using namespace std;
 
 int main()
 {
+    
+    //test
     srand(time(NULL));
     int rozmiar;
     
