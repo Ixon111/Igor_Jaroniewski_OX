@@ -18,6 +18,12 @@ Sedzia::Sedzia(Plansza* plansza)
     pl = plansza;
 }
 
+Sedzia::~Sedzia()
+{
+    delete[]g1;
+    delete[]g2;
+}
+
 void Sedzia::gra(Plansza* pl)
 {
     int tryb;

@@ -18,6 +18,7 @@ protected:
 
 public:
     Sedzia(Plansza*);
+    ~Sedzia();
     void gra(Plansza* pl);
     void kolejnoscgraczy(Plansza* pl,int tryb);
     
