@@ -20,8 +20,9 @@ Sedzia::Sedzia(Plansza* plansza)
 
 Sedzia::~Sedzia()
 {
-    delete[]g1;
-    delete[]g2;
+    delete g1;
+    delete g2;
+    delete pl;
 }
 
 void Sedzia::gra(Plansza* pl)
