@@ -22,7 +22,6 @@ Sedzia::~Sedzia()
 {
     delete g1;
     delete g2;
-    delete pl;
 }
 
 void Sedzia::gra(Plansza* pl)
